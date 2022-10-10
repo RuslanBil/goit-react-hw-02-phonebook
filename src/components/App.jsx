@@ -24,7 +24,7 @@ export class App extends Component {
         }));
   };
 
-  chachangeFilter = e => {
+  changeFilter = e => {
     this.setState({ filter: e.currentTarget.value });
   };
   onDeleteContact = contactID => {
